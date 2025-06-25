@@ -1,8 +1,29 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>Metric/Imperial Unit Converter</h1>
+        <input type="number" value="20" id="header-input" />
+        <button id="header-button">Convert</button>
+      </div>
+      <div class="result-container">
+        <div class="result-item">
+          <h2 class="result-title">Length (Meter/Feet)</h2>
+          <p class="result-value" id="meter-result"></p>
+        </div>
+        <div class="result-item">
+          <h2 class="result-title">Volume (Liters/Gallons)</h2>
+          <p class="result-value" id="liter-result"></p>
+        </div>
+        <div class="result-item">
+          <h2 class="result-title">Mass (Kilograms/Pounds)</h2>
+          <p class="result-value" id="kilogram-result"></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
